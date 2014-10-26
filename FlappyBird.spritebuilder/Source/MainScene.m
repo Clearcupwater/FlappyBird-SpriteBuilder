@@ -160,10 +160,10 @@
             if (bush.position.x <= (-1 * bush.contentSize.width)) {
                 bush.position = ccp(bush.position.x +
                                     2 * bush.contentSize.width, bush.position.y);
-            
+            }
         }
     }
-    
+
     NSMutableArray *offScreenObstacles = nil;
     
     for (CCNode *obstacle in _obstacles) {
