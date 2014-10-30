@@ -16,11 +16,11 @@
 
 -(void)update:(CCTime)delta
 {
-    /*timeSinceObstacle += delta;
-    if (timeSinceObstacle> 2.0f) {
+    timeSinceObstacle += delta;
+    if (timeSinceObstacle> 1.0f) {
         [self addObstacle];
         timeSinceObstacle = 0.0;
-    }*/
+    }
 }
 
 
